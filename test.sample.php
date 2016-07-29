@@ -1,5 +1,5 @@
 <?php
-require_once('upyun.class.php');
+require_once('../upyun.class.php');
 $upyun = new UpYun ('username', 'password');//操作员的帐号密码
 $data = array(
     'bucket_name' => 'bucketname',        // 服务名称
