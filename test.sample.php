@@ -1,6 +1,6 @@
 <?php
 require_once('../upyun.class.php');
-$upyun = new UpYun ('username', 'password');//操作员的帐号密码
+$upyun = new UpYun ('username', 'password');//操作员和帐号密码
 $data = array(
     'bucket_name' => 'bucketname',        // 服务名称
     'notify_url' => 'http://callback.com',      //回调通知地址
