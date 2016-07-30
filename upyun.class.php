@@ -75,7 +75,7 @@ class UpYun {
         $sign = $this->createSign($data);
         $data = http_build_query($data);
         $headers[] = "Authorization: UPYUN ".$this->_username.":".$sign;
-        $headers[] = "Date: ".gmdate("l d F Y H:i:s")." GMT";
+        $headers[] = "Date: ".gmdate("D, d M Y H:i:s \G\M\T");
         $ch = curl_init();
         $options = array();
                switch(strtoupper($method)) {
