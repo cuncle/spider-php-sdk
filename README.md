@@ -1,5 +1,5 @@
 # 又拍云 PHP版云处理的简单SDK（异步拉取，解压和压缩）
-基于又拍云[异步文件拉取文档](http://docs.upyun.com/cloud/spider/) 实现文件拉取，基于又拍云[压缩解压缩文档](http://docs.upyun.com/cloud/unzip/)实现文件压缩解压所    
+基于又拍云[异步文件拉取文档](http://docs.upyun.com/cloud/spider/) 实现文件拉取，基于又拍云[压缩解压缩文档](http://docs.upyun.com/cloud/unzip/)实现文件压缩解压缩。    
 #异步拉取使用方法   
 ```
 // 初始化 UpYun
