@@ -32,7 +32,7 @@ $data = array(
     'bucket_name' => 'bucketname',        // 服务名称
     'notify_url' => 'http://callback.com',      //回调通知地址
     'app_name'	=> 'compress',      //任务所使用的云处理程序，压缩为 compress，解压缩为 depress
-    'tasks' =>array(    //处理参数可以参考[文档](http://docs.upyun.com/cloud/unzip/#_6)
+    'tasks' =>array(    //处理参数可以参考文档:http://docs.upyun.com/cloud/unzip/#_6
        array(
          "sources" => ["/path/1.jpg"],         //需要压缩的文件路径
          "save_as" => "/result/abc.zip"        //保存路径
