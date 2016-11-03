@@ -39,4 +39,6 @@ $data = array(
         )
     )
 );
+$ids = $upyun->request($data);
+print $ids;
 ``` 
