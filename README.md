@@ -42,3 +42,17 @@ $data = array(
 $ids = $upyun->request($data);
 print $ids;
 ``` 
+#注意事项 
+返回的code:200 只是表示你提交的处理请求已经成功发送到了处理队列里面，具体的处理结果在你的回调信息里面。
+```
+HTTP/1.1 200 OK
+Server: vivi/0.7
+Date: Thu, 03 Nov 2016 13:05:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Request-Id: 6743decb89adc4902dbca119117ef901
+X-Request-Path: poc-hgh-a-15, api-php-083
+["61ad3b6911c810881ee87049f09452a4"]
+``` 
+
